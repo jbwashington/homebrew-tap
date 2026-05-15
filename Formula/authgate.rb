@@ -3,8 +3,8 @@ class Authgate < Formula
 
   desc "Switch user-level CLI auth between named profiles (cf, stripe, vercel, gh, doctl, supabase, claude, codex, aws)"
   homepage "https://github.com/jbwashington/authgate"
-  url "https://github.com/jbwashington/authgate/archive/refs/tags/v0.6.0.tar.gz"
-  sha256 "49bed55b6390fb9c45d6e712b633860732442a4b940832dc387bc75eb289dc8f"
+  url "https://github.com/jbwashington/authgate/archive/refs/tags/v0.7.0.tar.gz"
+  sha256 "072f96c2388a27ade713f8cd7f0c79ade1df0e36c0684769e5d3bccc84268c2c"
   license "MIT"
   head "https://github.com/jbwashington/authgate.git", branch: "main"
 
