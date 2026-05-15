@@ -29,7 +29,7 @@ brew upgrade authgate
 
 ### [`authgate`](Formula/authgate.rb)
 
-Switch user-level CLI auth between named profiles. One command instead of `logout && login` whenever you flip between accounts on `wrangler`, `stripe`, `vercel`, `gh`, `doctl`, or `supabase`. Supports cross-service groups (`authgate use titan` flips them all at once), profile rename, and ships zsh completion automatically.
+Switch user-level CLI auth between named profiles. One command instead of `logout && login` whenever you flip between accounts on `wrangler`, `stripe`, `vercel`, `gh`, `doctl`, `supabase`, Claude Code, or OpenAI Codex. Supports cross-service groups (`authgate use titan` flips them all at once), profile rename, and ships zsh completion automatically.
 
 - **Source**: [github.com/jbwashington/authgate](https://github.com/jbwashington/authgate)
 - **Install**: `brew install jbwashington/tap/authgate`
