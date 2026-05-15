@@ -1,10 +1,10 @@
 class Authgate < Formula
   include Language::Python::Virtualenv
 
-  desc "Switch user-level CLI auth between named profiles (cf, stripe, vercel, gh, doctl, supabase, claude, codex)"
+  desc "Switch user-level CLI auth between named profiles (cf, stripe, vercel, gh, doctl, supabase, claude, codex, aws, gcloud)"
   homepage "https://github.com/jbwashington/authgate"
-  url "https://github.com/jbwashington/authgate/archive/refs/tags/v0.4.0.tar.gz"
-  sha256 "b0eb8af2908d85a327b4745c80232e3672082f2933eda51581fae06ae24d7376"
+  url "https://github.com/jbwashington/authgate/archive/refs/tags/v0.5.0.tar.gz"
+  sha256 "b3787ff24a9d44f4fd91ded2252a51301d0c5b96b2f5d2884103cd0dfe16839e"
   license "MIT"
   head "https://github.com/jbwashington/authgate.git", branch: "main"
 
